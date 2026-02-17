@@ -199,7 +199,7 @@ Multiple metrics are used to evaluate model performance:
 Based on the notebook output:
 
 ```
-Final Model Evaluation
+Final Model Evaluation for Salary
 ------------------------
 Test Loss: 0.6953
 Accuracy: 0.4972 (49.72%)
@@ -211,6 +211,20 @@ ROC-AUC: 0.5017
 Confusion Matrix:
 [[43 48]
  [41 45]]
+```
+
+```
+Final Model Evaluation for Attrition
+------------------------
+Accuracy  : 0.5985
+Precision : 0.6000
+Recall    : 0.6618
+F1 Score  : 0.6294
+ROC-AUC   : 0.5762
+
+Confusion Matrix:
+[[34 30]
+ [23 45]]
 ```
 
 ### Model Interpretation
